@@ -1,0 +1,10 @@
+def greet(firstname,lastname):
+    print(f"Hi {firstname} {lastname} welcome here ")
+
+print("start")
+firstname = input('what is your name ')
+lastname = input('what is your last name')
+greet(firstname,lastname)
+greet(" john", "smith")
+print('stop')
+
